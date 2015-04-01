@@ -8,6 +8,7 @@ var Router = Ember.Router.extend({
 Router.map(function() {
   this.resource('homepage', { path: '/' });
   this.resource('talk', { path: 'talks/:talk_id' });
+  this.route('login');
 });
 
 export default Router;
